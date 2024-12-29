@@ -1,7 +1,7 @@
 # Github User Activity
 
-A CLI tool to get Github user activity.
----
+A CLI tool to get Github user activity.  
+
 Sample solution for [github user activity] challenge from [roadmap.sh].
 
 ## How to run
