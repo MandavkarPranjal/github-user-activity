@@ -14,9 +14,7 @@ func NewRootCmd() *cobra.Command {
 		Long: `Github User Activity is a CLI tool for fetching user activity. It allows you to fetch user activity by providing the username.
 
 Example:
-> github-activity arikchakma
-
-Complete code available at https://github.com/arikchakma/backend-projects`,
+> github-activity mandavkarpranjal`,
 		RunE: func(cmd *cobra.Command, args []string) error {
 			return RunDisplayActivityCmd(args)
 		},
